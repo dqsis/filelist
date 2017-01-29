@@ -7,8 +7,8 @@ import os
 
 of = open('filestructure.txt', "w")
 
-root = r"C:\Users\DimitriosKiousis\000-assignments\004-rosemount\PO-527-166571"
-path = os.path.join(root, "PO-527-166571")
+root = r"C:\Users\DimitriosKiousis\filepath"
+path = os.path.join(root, "filename")
 
 for path, subdirs, files in os.walk(root):
     for name in files:
